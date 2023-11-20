@@ -3,7 +3,7 @@ alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 lettres = list(alphabet)
 random.shuffle(lettres)
-print(lettres)
+print("alphabet dans le désordre", lettres)
 
 lettres.sort()
-print(lettres)
+print("alphabet dans l'ordre", lettres)
