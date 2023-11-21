@@ -1,6 +1,3 @@
-
-
-
 def betalpha(alphabet):
   
     betalpha = ""
