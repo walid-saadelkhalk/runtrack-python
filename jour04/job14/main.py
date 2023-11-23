@@ -13,9 +13,9 @@ def my_long_word(longueur_minimale, phrase):
     resultat = ""
     en_mot = False
 
-    for char in phrase:
-        if char.isalpha():
-            mot_actuel += char
+    for word in phrase:
+        if word.isalpha():
+            mot_actuel += word
             en_mot = True
         elif en_mot:
             if longueur_mot(mot_actuel) > longueur_minimale:
