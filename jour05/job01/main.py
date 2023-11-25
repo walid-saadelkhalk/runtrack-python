@@ -1,0 +1,1 @@
+print("Hello", input("Entrez votre nom:"),end="!")

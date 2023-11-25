@@ -13,9 +13,11 @@ def my_long_word(longueur_minimale, phrase):
     resultat = ""
     en_mot = False
 
-    for word in phrase:
-        if word.isalpha():
-            mot_actuel += word
+    for letter in phrase:
+        # if letter.isalpha():
+        separators = " \t\r\n.,;:!?-()[]{}'"
+        if not letter in separators:
+            mot_actuel += letter
             en_mot = True
         elif en_mot:
             if longueur_mot(mot_actuel) > longueur_minimale:
