@@ -1,7 +1,12 @@
-def denivele(x, y):
-        return ((x * y)*70) /100
-        
-print(denivele(100, 10))
-  
+marche = int(input("Nombre de marche: "))
+hauteur = int(input("Hauteur de marche: "))
+distance = marche * hauteur
+
+def denivele(marche, hauteur):
+        return ((distance)*70) /100
+
+print(f"pour {marche} marches de {hauteur} cm, le gardien parcourt {denivele(marche, hauteur)} m par semaine.")
+ 
+
 
         
