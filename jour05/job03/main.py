@@ -16,3 +16,4 @@ def triangle(hauteur):
 hauteur = int(input("Hauteur du triangle: "))
 triangle(hauteur)
 print(triangle)     
+
